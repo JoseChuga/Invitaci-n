@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baby Shower</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Vk8h6Z0hjJgh2IFjXyIVavB6wE+1xx8lYQfViJ9rG36p6zFFAd+bE7QNRbQmn+gI"
+    crossorigin="anonymous"
+  >
+  <style>
+    body {
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .video-wrapper video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .btn-confirm {
+      background-color: #ec4899;
+      color: #ffffff;
+      border: none;
+      border-radius: 0.75rem;
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-confirm:hover, .btn-confirm:focus {
+      background-color: #db2777;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid p-0 d-flex flex-column justify-content-center text-center vh-100">
+
+    <!-- Sección de video -->
+    <div class="video-wrapper w-100">
+      <video controls>
+        <source src="assets/video.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </div>
+
+    <!-- Botón de confirmación centrado -->
+    <div class="mt-4 w-100 text-center align-self-stretch">
+      <a
+        class="btn-confirm"
+        href="https://wa.me/50251193289?text=Confirmo%20que%20asistir%C3%A9%20al%20Baby%20Shower"
+        target="_blank"
+        rel="noopener"
+      >
+        Confirmar asistencia
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS (opcional) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-xxx"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
